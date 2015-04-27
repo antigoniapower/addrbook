@@ -24,7 +24,7 @@ namespace AddressBook
 
         private void LoadForm_Shown(object sender, EventArgs e)
         {           
-            DM.GetInstance().LoadUsers();
+            DM.GetInstance().LoadUsers();//приуэт
         }
 
           
